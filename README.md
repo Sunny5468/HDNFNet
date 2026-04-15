@@ -18,15 +18,6 @@ This repository packages the current paper draft, core model implementation, tra
 ├── src/hdnfnet/
 │   ├── __init__.py
 │   └── model.py
-├── scripts/
-│   └── run_hybrid_pipeline.py
-├── paper/
-│   ├── HDNFNet.tex
-│   ├── references.bib
-│   └── figures/
-├── results/
-│   ├── MI/
-│   └── MA/
 ├── docs/
 │   ├── dataset.md
 │   └── baselines.md
@@ -60,22 +51,13 @@ model = HemoDelayNeuroFusionNet(
 )
 ```
 
-3. Training pipeline script:
-
-```bash
-python scripts/run_hybrid_pipeline.py --atcnet --loso --epochs 40 --seed 42
-```
-
 ## Current Included Results (LOSO)
 
-- MI full/pure baseline summary: `results/MI/`
-- MA full model summary: `results/MA/summary_full_model.json`
 - MA full model mean accuracy: `0.7557`
 - MA full model mean kappa: `0.5115`
 
 ## Notes
 
-- `scripts/run_hybrid_pipeline.py` references local modules (`strict_riemann_alignment`, `models`, `model_16`) from the original development workspace. Those modules are not included in this snapshot.
 - Core HDNFNet architecture is provided in `src/hdnfnet/model.py`.
 
 ## Citation
