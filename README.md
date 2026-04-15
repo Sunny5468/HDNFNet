@@ -1,6 +1,12 @@
 # HDNFNet
 
 HDNFNet (Hemodynamic-Delay-aware NeuroFusion Network) is a hybrid EEG-fNIRS decoding framework for BCI tasks. The core idea is to model neurovascular delay explicitly during cross-modal fusion, instead of aligning EEG and fNIRS at identical timestamps.
+<img width="340" height="242" alt="image" src="https://github.com/user-attachments/assets/9ad222b5-0917-4598-83f9-7fd659b891b4" />
+<img width="392" height="184" alt="image" src="https://github.com/user-attachments/assets/e4c27e9f-b8e4-4281-8ec1-8004153e5583" />
+<img width="252" height="151" alt="image" src="https://github.com/user-attachments/assets/6a971fea-1f8e-4ce7-9bf1-e6b90235bbbe" />
+<img width="335" height="199" alt="image" src="https://github.com/user-attachments/assets/8a20e840-bc8f-4a33-8e67-6b64ef047337" />
+<img width="257" height="118" alt="image" src="https://github.com/user-attachments/assets/a239113e-1ee1-42cf-8cfe-819309e10f53" />
+<img width="232" height="185" alt="image" src="https://github.com/user-attachments/assets/a80d4b9c-6b10-44e7-922c-23f2d424b68e" />
 
 This repository packages the current paper draft, core model implementation, training pipeline script, and representative LOSO result summaries for MI and MA tasks.
 
